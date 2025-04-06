@@ -7,24 +7,33 @@ body{
     background-image: url("images/body_background.png");
     background-size: cover;
 }
+.beaches-body{
+    background-image: url("https://i.pinimg.com/originals/81/33/05/813305ba6bfbb810a29afb8dc51abab8.png");
+    background-size: cover;
+}
 .navbar ul{
-    background-color: gray;
+    background-color:transparent;
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    
-
-}
+    }
 .navbar li{
 
     margin: 0px 10px;
     padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
 .navbar a:hover{
-    background-color: wheat;
+    background-color: whitesmoke;
     color: black;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 h1{
@@ -81,4 +90,33 @@ p{
 .explore-btn:hover{
     background-color: wheat;
     color: black;
+}
+.activity-img1{
+    width: 400px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.activity-img2{
+    width: 400px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.activity{
+
+text-align: center;
+display: flex;
+justify-content: center;
+
+}
+
+.activity-figure{
+    font-size: 20px;
+    color: white;
 }
