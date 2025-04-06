@@ -7,6 +7,10 @@ body{
     background-image: url("images/body_background.png");
     background-size: cover;
 }
+.navbar{
+    background-color: gray;
+    
+}
 
 h1{
     font-size: 60px;
@@ -14,9 +18,28 @@ h1{
     color: white;
     padding: 30px;
     margin-top: 100px;
-    font-style:oblique
-    
+    font-style:oblique;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    font-style:oblique;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+h3{
+    font-size:30px;
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+}
+
 
 p{
     font-size: 25px;
@@ -24,6 +47,8 @@ p{
     color: white;
     padding: 30px;
     font-style: italic;
+    
+    
 }
 .explore-btn{
     position: fixed;
@@ -32,8 +57,20 @@ p{
     background-color: gray;
     text-decoration: none;
     color: black;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: 120px;
+    height: 10px;
 }
 
 .explore-btn:hover{
-    background-color: cyan;
+    background-color: wheat;
+}
+.activities ul{
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+  
+    
 }
