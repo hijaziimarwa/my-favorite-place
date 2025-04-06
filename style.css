@@ -11,9 +11,7 @@ body{
     background-image: url("images/beaches_background.png");
     background-size: cover;
 }
-.maps-body{
 
-}
 .navbar ul{
     background-color:transparent;
     display: flex;
