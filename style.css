@@ -6,10 +6,12 @@
 body{
     background-image: url("images/body_background.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .beaches-body{
     background-image: url("images/beaches_background.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar ul{
