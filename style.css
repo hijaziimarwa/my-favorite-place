@@ -7,11 +7,17 @@ body{
     background-image: url("images/body_background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 .beaches-body{
     background-image: url("images/beaches_background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .navbar ul{
