@@ -3,3 +3,37 @@
     padding: 0px;
 }
 
+body{
+    background-image: url("images/body_background.png");
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin-top: 100px;
+    font-style:oblique
+    
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-style: italic;
+}
+.explore-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+}
+
+.explore-btn:hover{
+    background-color: cyan;
+}
