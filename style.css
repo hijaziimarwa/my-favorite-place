@@ -130,7 +130,7 @@ justify-content: center;
     color: white;
 }
 
-#map {
+.map {
     position: absolute;
     bottom: 20px; /* Distance from the bottom of the page */
     right: 20px; /* Distance from the right of the page */
